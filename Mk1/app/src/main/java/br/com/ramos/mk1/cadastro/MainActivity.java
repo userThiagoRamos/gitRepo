@@ -1,13 +1,13 @@
-package br.com.ramos.mk1;
+package br.com.ramos.mk1.cadastro;
 
-import android.app.DialogFragment;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
-import br.com.ramos.mk1.fragments.SingUpFragment;
+import br.com.ramos.mk1.R;
+import br.com.ramos.mk1.cadastro.fragments.SingUpFragment;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;

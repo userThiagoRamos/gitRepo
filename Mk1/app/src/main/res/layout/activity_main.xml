@@ -11,10 +11,10 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <ImageView
@@ -25,32 +25,31 @@
             android:src="@drawable/ic_account_box_white_18dp" />
     </LinearLayout>
 
-    <LinearLayout
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal"
-        >
-
-        <Button
-            android:id="@+id/logIn_Bt"
-            android:layout_width="0dp"
-            android:layout_weight="1"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/primary_light"
-            android:labelFor="@string/logIn"
-            android:text="LOG IN" />
+            android:gravity="center"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/signUp_Bt"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:background="@color/primary_dark"
-            android:labelFor="@string/signup"
-            android:text="@string/signup" />
+            <Button
+                android:id="@+id/logIn_Bt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/primary_light"
+                android:labelFor="@string/logIn"
+                android:text="LOG IN" />
 
-    </LinearLayout>
+            <Button
+                android:id="@+id/signUp_Bt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/primary_dark"
+                android:labelFor="@string/signup"
+                android:text="@string/signup" />
+
+        </LinearLayout>
+
 
 </LinearLayout>
